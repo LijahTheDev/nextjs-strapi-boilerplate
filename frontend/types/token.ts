@@ -1,7 +1,7 @@
-export default interface iToken {
-  jwt: string;
-  id: number;
-  email: string;
-  name: string;
-  picture: string;
+export default interface IToken {
+	jwt: string;
+	id: number;
+	email: string;
+	name: string;
+	picture: string;
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Page from "components/pages/error";
 import { NextPage } from "next";
 
 interface iProps {
@@ -13,7 +12,7 @@ const Error: NextPage<iProps> = ({ statusCode }) => {
       <Head>
         <title>Error Page</title>
       </Head>
-      <Page statusCode={statusCode} />
+      Error: {statusCode}
     </>
   );
 };
