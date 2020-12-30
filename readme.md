@@ -40,14 +40,9 @@ This is a boilerplate for building applications using Strapi and Next.js. This b
 
 This boilerplate is built using the following technologies:
 
-1. [Chakra UI](https://chakra-ui.com/)
-2. [Emotion](https://emotion.sh/)
-3. [GraphQL](https://graphql.org/)
-4. [Apollo](https://www.apollographql.com/)
-5. [NextAuth](https://next-auth.js.org/)
-6. [TypeScript](https://www.typescriptlang.org/)
-
-It supports GraphQL Query and Mutation out of the box.
+1. [Tailwind CSS](https://tailwindcss.com/)
+2. [NextAuth](https://next-auth.js.org/)
+3. [TypeScript](https://www.typescriptlang.org/)
 
 ## Requirements
 
@@ -76,7 +71,7 @@ git clone https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate
 ### 2. **Install necessary dependencies for the frontend application**
 
 ```sh
-cd frontend && yarn install
+cd frontend && npm install
 ```
 
 ### 3. **Create a .env file and copy the contents from .env.example (present in frontend directory)**
@@ -96,7 +91,7 @@ Create a new [Google OAuth Client](https://console.developers.google.com/apis/cr
 From the frontend directory, we can run the following command to start our Next.js frontend application:
 
 ```sh
-yarn dev
+npm run dev
 ```
 
 The above command will start the frontend application on [http://localhost:3000/](http://localhost:3000).
