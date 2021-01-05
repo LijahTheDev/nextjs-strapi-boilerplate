@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "photos": {
+      "collection": "photo",
+      "via": "project"
+    },
+    "projectDate": {
+      "type": "date"
+    },
+    "videos": {
+      "collection": "video",
+      "via": "project"
+    }
+  }
+}

@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "dev:frontend": "cd frontend && yarn dev",
-    "build:frontend": "cd frontend && yarn build",
-    "export:frontend": "cd frontend && yarn export",
-    "start:frontend": "cd frontend && yarn start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "export:frontend": "cd frontend && npm run export",
+    "start:frontend": "cd frontend && npm run start",
     "release": "release-it"
   },
   "devDependencies": {
@@ -22,5 +22,6 @@
     "*.{js,json,css,md,tsx,ts}": [
       "prettier --write"
     ]
-  }
+  },
+  "dependencies": {}
 }
